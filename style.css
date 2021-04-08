@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: FreeMono, monospace;
+	color: white;
+	text-decoration: none;
+}
+
+/*INÍCIO CABEÇALHO*/
+#superior button {
+	padding: 10px;
+	border-style: none;
+	border: 1px solid white;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0) 
+}
+
+#cabecalho {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+#cabecalho h1 {
+	color: white;
+}
+
+#superior {
+	border-bottom: 1px solid white;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 17px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	font-size: 20px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu {
+	padding: 20px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 50px;
+}
+/*FINAL CABEÇALHO*/
+
+#fundo {
+	height: 700px;
+	background-image: url(imagens/fundo-superior.jpg);
+	background-size: 120%;
+	background-position: left left;
+	justify-content: center;
+	align-items: center;
+}
+
+/*INÍCIO BODY*/
+#principal {
+	width: auto;
+	margin-top: 150px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 500px;
+	background-color: rgba(255,255,255,0.1);
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+ #texto-informativo {
+ 	text-align: center;
+ 	font-size: 30px;
+ }
+
+ #botao-principal {
+ 	padding: 20px;
+	border-style: none;
+	border: 1px solid white;
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+ }
+
+#container {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bloco img {
+	width: 400px;
+	box-shadow: 1px 1px 3px black;
+}
+
+.bloco h3 {
+	font-size: 30px;
+	text-align: left;
+	position: absolute;
+	top: 898px;
+	margin-left: 60px;
+}
+
+.fundo-bloco {
+	height: 100px;
+	width: 400px;
+}
+
+.bloco div {
+	position: absolute;
+	top: 887px;
+	background-color: rgba(26, 109, 211,0.7)
+
+
+}
+
+body {
+	background-color: #dbdbdb;
+}
+
+#quem-somos h1 {
+	color: black;
+	text-align: center;
+	margin: 40px;
+	font-size: 60px;
+}
+
+#quem-somos p {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+
+#rodape {
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+#quem-somos h3 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	display: block;
+	padding-bottom: 60px;
+	padding-top: 35px;
+}
+
+#quem-somos img {
+	width: 200px;
+}
+
+#imagens {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+/*FINAL BODY*/
